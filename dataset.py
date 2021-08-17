@@ -24,11 +24,11 @@ class SSTDataset(Dataset):
 		label = self.df.loc[index, 'label']
 		#Preprocess the text to be suitable for the transformer
 		input_ids = self.tokenizer.encode_plus( sentence,
-		 										add_special_tokens=True,
-												return_attention_mask=True,
-												truncation=True,
-												max_length=self.maxlen,
-												padding='max_length',
-												return_tensors='pt')
+		 					add_special_tokens=True,
+							return_attention_mask=True,
+							truncation=True,
+							max_length=self.maxlen,
+							padding='max_length',
+							return_tensors='pt')
 
 		return input_ids['input_ids'], input_ids['attention_mask'], label
