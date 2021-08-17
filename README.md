@@ -2,6 +2,7 @@
 
 Sentiment analysis neural network trained by fine-tuning [BERT](https://arxiv.org/pdf/1810.04805.pdf), [ALBERT](https://arxiv.org/pdf/1909.11942.pdf), or [DistilBERT](https://arxiv.org/pdf/1910.01108.pdf) on the [Stanford Sentiment Treebank](https://nlp.stanford.edu/sentiment/).
 
+![https://i.imgur.com/XPQFCix.mp4](https://github.com/barissayil/SentimentAnalysis/blob/master/public/analyze.gif)
 
 ## Install requirements
 ```
@@ -53,3 +54,4 @@ npm run serve
 
 ### References
 1. https://www.curiousily.com/posts/sentiment-analysis-with-bert-and-hugging-face-using-pytorch-and-python/
+2. https://jalammar.github.io/illustrated-bert/
