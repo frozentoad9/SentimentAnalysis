@@ -2,9 +2,11 @@
 
 Sentiment analysis neural network trained by fine-tuning [BERT](https://arxiv.org/pdf/1810.04805.pdf), [ALBERT](https://arxiv.org/pdf/1909.11942.pdf), or [DistilBERT](https://arxiv.org/pdf/1910.01108.pdf) on the [Stanford Sentiment Treebank](https://nlp.stanford.edu/sentiment/).
 
-## Install requirements (torch, pandas, numpy, transformers, flask, flask_core)
+![https://i.imgur.com/XPQFCix.mp4](https://github.com/barissayil/SentimentAnalysis/blob/master/public/analyze.gif)
+
+## Install requirements
 ```
-pip install -r requirements.txt
+pip install numpy pandas torch transformers
 ```
 
 ## Analyze your inputs with the model that I've uploaded on s3
@@ -49,3 +51,6 @@ npm install
 cd client
 npm run serve
 ```
+
+### References
+1. https://www.curiousily.com/posts/sentiment-analysis-with-bert-and-hugging-face-using-pytorch-and-python/
