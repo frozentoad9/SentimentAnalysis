@@ -2,7 +2,7 @@
 
 Sentiment analysis neural network trained by fine-tuning [BERT](https://arxiv.org/pdf/1810.04805.pdf), [ALBERT](https://arxiv.org/pdf/1909.11942.pdf), or [DistilBERT](https://arxiv.org/pdf/1910.01108.pdf) on the [Stanford Sentiment Treebank](https://nlp.stanford.edu/sentiment/).
 
-## Install requirements
+## Install requirements (torch, pandas, numpy, transformers, flask, flask_core)
 ```
 pip install -r requirements.txt
 ```
