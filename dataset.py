@@ -8,7 +8,7 @@ class SSTDataset(Dataset):
 	def __init__(self, filename, maxlen, tokenizer):
 
 		#This is the file where sentences and labels are stored (its a .tsv format file)
-		self.df = pd.read_csv(filename)
+		self.df = pd.read_csv(filename, delimiter='\t')
 		#Initialize the tokenizer for the desired transformer model
 		self.tokenizer = tokenizer
 		#Maximum length of the tokens list to keep all the sequences of fixed size
