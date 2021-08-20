@@ -19,8 +19,8 @@ class SSTDataset(Dataset):
 
 	def __getitem__(self, index):
 		#Select the sentence and label at the specified index in the data frame
-		#sentence = self.df.loc[index, 'sentence']
-		sentence = self.df.loc[index, 'content']
+		sentence = self.df.loc[index, 'sentence']
+		#sentence = self.df.loc[index, 'content']
 		label = self.df.loc[index, 'label']
 		#Preprocess the text to be suitable for the transformer
 		input_ids = self.tokenizer.encode_plus( sentence,
