@@ -1,0 +1,6 @@
+torch==1.9.0
+pandas==1.2.4
+numpy==1.21.1
+transformers==4.9.2
+flask==2.0.1
+flask_cors==3.0.8
