@@ -7,11 +7,6 @@ Sentiment analysis neural network trained by fine-tuning [BERT](https://arxiv.or
 pip install numpy pandas torch transformers
 ```
 
-## Analyze your inputs with the model that I've uploaded on s3
-```
-python analyze.py
-```
-
 ## Train model
 ```
 python train.py --model_name_or_path bert-base-uncased --output_dir my_model --num_eps 2
